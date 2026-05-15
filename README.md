@@ -1,5 +1,9 @@
 # Hanwudi Team 🏛️
 
+[![GitHub stars](https://img.shields.io/github/stars/dingzhilin1990/hanwudi-arch-openclaw?style=social)](https://github.com/dingzhilin1990/hanwudi-arch-openclaw)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+
 [English](#english) | [中文](#中文)
 
 ---
@@ -7,6 +11,29 @@
 ## English
 
 AI Agent Team Architecture with 8 specialized personas, inspired by MetaGPT SOP methodology.
+
+### 🏛️ Architecture
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                    Hanwudi Team Architecture                 │
+├─────────────────────────────────────────────────────────────┤
+│  ┌─────────────────────────────────────────────────────┐   │
+│  │  中朝 · Inner Court  (Strategic Layer)              │   │
+│  │  Strategist · Scholar · Doctor                      │   │
+│  └─────────────────────────────────────────────────────┘   │
+│  ┌─────────────────────────────────────────────────────┐   │
+│  │  外朝 · Outer Court  (Execution Layer)              │   │
+│  │  General · Chancellor · Censor                       │   │
+│  └─────────────────────────────────────────────────────┘   │
+│  ┌─────────────────────────────────────────────────────┐   │
+│  │  刺史 · Provincial  (Supervision Layer)              │   │
+│  │  Inspector · Physician                              │   │
+│  └─────────────────────────────────────────────────────┘   │
+├─────────────────────────────────────────────────────────────┤
+│                        LLM Adapter                          │
+└─────────────────────────────────────────────────────────────┘
+```
 
 ### Features
 

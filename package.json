@@ -63,5 +63,8 @@
     "testMatch": [
       "**/tests/**/*.test.ts"
     ]
+  },
+  "dependencies": {
+    "openai": "^4.0.0"
   }
 }
